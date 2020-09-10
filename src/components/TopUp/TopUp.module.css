@@ -1,0 +1,16 @@
+.mainArea {
+    height: 90%;
+    background-color: #ededed;
+  }
+
+  .boxRow{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.inputFields{
+  width: 60%;
+  margin: 40px  auto ;
+}

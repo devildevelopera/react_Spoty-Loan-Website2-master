@@ -1,0 +1,58 @@
+/* welcome */
+.welcome{
+    background-color: #474747;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 15px;
+}
+.welcome .row{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.welcome .row i{
+    font-size:12px ;
+    margin-left:10px
+
+}
+.welcome .name{
+    font-size: 12px;
+}
+.welcome:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* topBar */
+.topBar{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topBar span{
+    font-size: 24px;
+    font-weight: 500;
+    color: #c0c0c0;
+}
+
+
+/* Profile */
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 50px;
+    border-radius: 30px;
+}
+.profile i{
+    font-size: 23px;
+    color: gray;
+    padding: 10px;
+}

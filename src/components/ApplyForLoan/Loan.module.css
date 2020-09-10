@@ -1,0 +1,150 @@
+.mainArea {
+    height: 90%;
+    background-color: #ededed;
+  }
+
+  /* Apply Loan */
+
+  .apply{
+   
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+  }
+  .applyBox{
+    height: 300px;
+    border-radius: 20px;
+    background-color: #9fefed;
+    
+    
+  }
+
+  .applyBox .title{
+   
+    background-color: #fff;
+    border-radius: 12px;
+    color: #4478cc;
+    padding: 15px;
+  }
+
+  .customSelect{
+    display: flex;
+    justify-content: center;
+  }
+
+ .customSelect select{
+    width: 90%;
+    padding: 15px;
+    margin: 40px auto;
+    border:1px solid rgb(170, 170, 170);
+    border-radius: 12px 12px 0 0 ;
+     
+  }
+
+  select:focus{
+     border:1px solid rgb(170, 170, 170);
+     outline: none;
+  }
+
+  .inputArea{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .inputArea input[type=checkbox]{
+      margin: 10px;
+  }
+
+  .inputArea label a{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4478cc;
+  }
+
+
+  .form{
+    padding-top: 20px;
+  }
+
+.form div input[type=text],.form div input[type=number], input[type=email], input[type=date]{
+    width: 60%;
+    display: flex;
+    padding: 10px;
+    margin: 10px auto;
+    border:1px solid rgb(170, 170, 170);
+    border-radius:12px;
+  }
+  
+  input[type=password]:focus, input[type=text]:focus, input[type=number]:focus, input[type=email]:focus , input[type=date]:focus  {
+    border: none;
+    outline: none;
+  }
+
+  .form select{
+    width: 60%;
+    display: flex;
+    padding: 10px;
+    margin: 10px auto;
+    border:1px solid rgb(170, 170, 170);
+    border-radius:12px;
+
+  }
+
+
+  .question{
+    width: 60%;
+    margin: 0 auto;
+    
+  }
+  .question p{
+    color: #0099ff;
+  }
+
+  .question label{
+    margin:0 15px 0 2px;
+  }
+
+  .uploadOptions{
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  .uploadOptions div{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  input[type='file']{
+    display: none;
+  }
+
+  .uploadOptions label{
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: #0099ff;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+
+  }
+  .form{
+    padding-bottom: 50px;
+  }
+
+  .form span{
+    color: #0099ff;
+
+  }
+ .applyButton{
+   width:90%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+ }

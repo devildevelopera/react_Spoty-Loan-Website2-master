@@ -1,0 +1,107 @@
+.box{
+    width: 90%;
+    
+    margin: 10px auto;
+    border:1px solid rgb(170, 170, 170);
+    padding-bottom: 15px;
+    border-radius:12px;
+  }
+  .box .actions{
+    
+    border-radius:12px 12px 0px 0px;
+    background-color: #0099ff;
+    display: flex;
+    
+  }
+  .box .actions .btn{
+    
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .box .actions .btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  .box .displayRecords{
+    background-color: #7fccff;
+    padding: 10px;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .box .displayRecords span{
+    background-color: #fff;
+    color: black;
+    padding: 1px; 
+  }
+  
+
+
+/* Table*/
+.divTable{
+	display: table;
+    width: 100%;
+    
+    
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+    border: .1px solid #4fb7fc;
+    
+	display: table-cell;
+    padding: 12px 0px;
+    text-align: center;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableRow:nth-child(even){
+    background-color: #7fccff;
+    
+}
+
+input[type=checkbox].cssCheckbox{
+    margin: 5px;
+}
+
+i{
+    color: #282828;
+    cursor: pointer;
+    
+
+}
+i:hover{
+    opacity: 0.8;
+}
+
+/* Manage Testimonials */
+
+.buttonRow{
+  width: 100%;
+  padding: 20px ; 
+  display: flex;
+  justify-content: center;
+}

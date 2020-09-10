@@ -1,0 +1,104 @@
+.box{
+    
+    width: 22%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 14px 0px rgb(53, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+    position: relative;
+   
+}
+
+.box:hover{
+    scale: 1.1;
+    cursor: pointer;
+  
+}
+
+.img{
+    width: 100%;
+}
+
+.boxTitle{
+    padding-top: 20px;
+    font-size:14px ;
+    margin: 10px 10px ;
+    color: rgb(255, 255, 255);
+}
+
+.boxIcon{
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.box span{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(68, 39, 1);
+    bottom: 10px;
+    left: 15px;
+}
+
+/* Detailed box */
+
+.detailedBox{
+    width: 95%;
+    margin: 20px 10px;   
+    border: .5px solid rgb(168, 167, 167);;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.sideBox{
+    width: 55%;
+    margin: 20px 10px;   
+    border: .5px solid rgb(168, 167, 167);;
+    border-radius: 14px;
+}
+
+.title{
+    color: #4478cc ;
+    background-color: #ccffd9;
+    border-radius: 14px 14px 0 0;
+    padding: 10px;
+    border-bottom: 0.5px solid rgb(168, 167, 167);;
+}
+
+.detailedBox ul li{
+    list-style-type: none;
+    display: flex;
+    font-weight: 600;
+    width: 95%;
+    margin:20px auto ;
+    justify-content: space-between;
+    text-align: right;
+}
+.detailedBox .list {
+    margin: 0 auto;    
+}
+
+.detailedBox .rightListThreeColumns{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+/* weapper */
+.wrapper{
+    margin-left: 20px;
+}

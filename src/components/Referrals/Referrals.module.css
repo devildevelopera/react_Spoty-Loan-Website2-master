@@ -1,0 +1,83 @@
+.mainArea {
+    height: 90%;
+    background-color: #ededed;
+  }
+
+  /* Apply Loan */
+
+  .apply{
+   
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+  }
+  .refBox{
+    height: 300px;
+    border-radius: 20px;
+    background-color: #ffa2e9;
+    
+    
+  }
+
+  .refBox .title{
+   
+    background-color: #fff;
+    border-radius: 12px;
+    color: #4478cc;
+    padding: 15px;
+  }
+
+  .innerBox{
+      width: 90%;
+      margin: 60px auto;
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+     position: relative;
+    }
+  .boxes{
+    display: flex;
+    font-size: 20px;
+    
+    
+  }
+  .boxes div{
+    margin-right: 20px;
+    
+  }
+
+  .innerBoxes{
+    width: 200px;
+    height: 130px;
+    border: #fff 2px solid;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+      
+  }
+  .findRef{
+     position: absolute;
+     bottom: -10px;
+     width: 60%;
+     left: 20px;
+     color: #4478cc;
+     font-weight: 500;
+     padding: 5px 20px;
+     background-color: #fff;
+     border-radius: 10px;
+  }
+
+  .referralBox{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #fff;
+      color: #4478cc;
+      text-transform: uppercase;
+      padding: 40px 10px;
+      border-radius: 15px;
+  }
+
+  

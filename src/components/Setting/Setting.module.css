@@ -1,0 +1,126 @@
+.mainArea {
+  height: 90%;
+  background-color: #ededed;
+}
+.mainArea .buttonRow{
+  width: 100%;
+  padding: 20px ; 
+  display: flex;
+  justify-content: center;
+}
+
+/* form */
+form{
+  width: 80%;
+  margin: 0 auto;
+}
+
+input[type=password], input[type=text], input[type=number]{
+  width: 90%;
+  display: flex;
+  padding: 15px;
+  margin: 10px auto;
+  border:1px solid rgb(170, 170, 170);
+  border-radius:12px;
+}
+
+input[type=password]:focus, input[type=text]:focus, input[type=number]:focus {
+  border: none;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 5px;
+}
+
+.buttons .btn {
+  background-color:#0099ff ;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+}
+
+.buttons .btn:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+form .upload{
+  margin: 20px 0;
+  display: flex;
+}
+
+form .upload label{
+  font-size:15px
+}
+
+textarea{
+  width: 90%;
+  height: 200px;
+  padding: 15px;
+  margin: 10px auto;
+  border:1px solid rgb(170, 170, 170);
+  border-radius:12px;
+}
+textarea:focus{
+  border: none;
+  outline: none;
+}
+
+/* manage FAQ */
+.box{
+  width: 90%;
+  height: 600px;
+  margin: 10px auto;
+  border:1px solid rgb(170, 170, 170);
+  border-radius:12px;
+}
+.box .actions{
+  
+  border-radius:12px 12px 0px 0px;
+  background-color: #0099ff;
+  display: flex;
+  
+}
+.box .actions .btn{
+  
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.box .actions .btn:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.box .displayRecords{
+  background-color: #7fccff;
+  padding: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.box .displayRecords span{
+  background-color: #fff;
+  color: black;
+  padding: 1px; 
+}
+
+.box .data th{
+  display: flex;
+  justify-content: space-between;
+}
+

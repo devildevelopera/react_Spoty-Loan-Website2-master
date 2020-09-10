@@ -1,0 +1,73 @@
+.mainArea {
+    height: 90%;
+    background-color: #ededed;
+  }
+
+  .form{
+      padding-top: 20px;
+      width: 60%;
+      margin: 0 auto;
+  }
+  .form select{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 10px auto;
+    border:1px solid rgb(170, 170, 170);
+    border-radius:12px;
+
+  }
+
+  input[type='file']{
+    display: none;
+  }
+
+  .uploadOptions label{
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: #0099ff;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+
+  }
+
+  .uploadOptions{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .uploadOptions div{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .uploadOptions p{
+
+      margin-right: 10px;
+  }
+
+  .form .updatebtn{
+      width: 30%;
+      display: flex;
+      float: right;
+
+  }
+
+  .form div input[type=text], .form div  input[type=number], .form div  input[type=date], .form div  input[type=email]{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    margin: 10px auto;
+    border:1px solid rgb(170, 170, 170);
+    border-radius:12px;
+  }
+  
+  input[type=password]:focus, input[type=text]:focus, input[type=number]:focus {
+    border: none;
+    outline: none;
+  }
